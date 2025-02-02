@@ -8,13 +8,21 @@ import pandas as pd
 # Initialize FastAPI
 app = FastAPI()
 
-# Google Sheets API Setup
+# ✅ Load Google Credentials from Render Environment Variable
 google_creds = json.loads(os.getenv("GOOGLE_CREDENTIALS"))
-SPREADSHEET_NAME = "Stock_Trading_Simulation"
 
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = Credentials.from_service_account_info(google_creds)
+# ✅ Ensure correct OAuth Scopes
+scope = [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive"
+]
+
+# ✅ Authenticate Google Sheets API
+creds = Credentials.from_service_account_info(google_creds, scopes=scope)
 client = gspread.authorize(creds)
+
+# ✅ Open Google Sheet
+SPREADSHEET_NAME = "Stock_Trading_Simulation"
 sheet = client.open(SPREADSHEET_NAME)
 
 # Connect to Google Sheets
