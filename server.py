@@ -1,3 +1,5 @@
+import os
+import json
 from fastapi import FastAPI
 import gspread
 from google.oauth2.service_account import Credentials
@@ -7,11 +9,11 @@ import pandas as pd
 app = FastAPI()
 
 # Google Sheets API Setup
-CREDENTIALS_FILE = "premium-country-449714-s4-8aaad326710a.json"  # Update with your file
+google_creds = json.loads(os.getenv("GOOGLE_CREDENTIALS"))
 SPREADSHEET_NAME = "Stock_Trading_Simulation"
 
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scope)
+creds = Credentials.from_service_account_info(google_creds)
 client = gspread.authorize(creds)
 sheet = client.open(SPREADSHEET_NAME)
 
