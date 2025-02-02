@@ -7,7 +7,7 @@ import pandas as pd
 app = FastAPI()
 
 # Google Sheets API Setup
-CREDENTIALS_FILE = r"C:\Users\tecky\OneDrive\Desktop\Stock_Simulation\premium-country-449714-s4-8aaad326710a.json"  # Update with your file
+CREDENTIALS_FILE = "premium-country-449714-s4-8aaad326710a.json"  # Update with your file
 SPREADSHEET_NAME = "Stock_Trading_Simulation"
 
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]

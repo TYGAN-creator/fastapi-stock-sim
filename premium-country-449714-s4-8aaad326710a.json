@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "premium-country-449714-s4",
+  "private_key_id": "8aaad326710a888c392ed72f1a4e2bb968e31780",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCcBJhsc8nD6Gq4\nZK7y3OkSuxS9E6wYI979J36uzLn4wTNQ2ZnICVEYQT0oVMiWBKlpBLQH7K7I+jXu\ncTkaqW52SNnSbvE0tItJqGrQovkGL+VOImgy2DWI6gzPE/qaBy8o0/SB6N7rBf74\n1CC0n/FYFQr4HDUHLxF/tEVt/vzmIxAQgcxkYQQlj/gIY4MM6RXnAj111RGwgpjH\nbhpPrwsfvyL8RZrUiG0xN5R4cAlfRkVDj0zKTTP2nIurI3bjos6wC88ua30g9/3W\n6PA1JUQn37xQh64kQ6mPzpeTNtb4evt56ceIwuR9b0mhwVGGuxJMsAkUhhue/5SD\nLu31LXvvAgMBAAECggEAGUfnWP+ELLIPBPUPojvoqofVCvRSmRDK89OABBwZcHUB\n9zJjaFYWJWuA2PWwERsNRn6kG3qfMeLVdV80ZR0aUKFqZl5iyGsO/O8E6+zUlEuT\niQ8rOj3totNmIvH2VBog6qk5wAk3gfbVQ4XADPSz21WBkwWjFBhs6fgQngvI+BNq\niijPb9nu3n5B8661JvHDoI4nrKwyhT0qvMot3lfxQkbpgq/2mkW7xka7EjQrn6sd\noKLeoCkVFfdPCVq5tX9OQBntveTsWWf7pjiZ2n2t6vk1D27LPRxy2QRCct7e7dMo\nWD9eGYC4LfwTBy21NPgC3AR98+Cw3hpWLInoNn8PvQKBgQDTg44EgSM+DrCK6hZW\nz/FIa/9vuTOTzORFG3pA9vsV+SjPQbh5EyPEnwHbyqBnRKHkIujTbwbZmWneXSYI\n32jvonmL50RH1qAN/9tjoVzgUaYX0R3pw9vEIzoQc59tDepS17fZ6wsxIJ+wrejX\n6j4c5zjMkjvxVeNASxE+LKS1gwKBgQC81P+aT2w741Rtzo2QxWOkTHp5rmk46N6C\n35pZdeBiNCSfEkzIy+IuLoRTG32BlpF/LrFEel4IIqIulZq2MsaKFFpgHRt2Xso5\nk8PwFkuLS655cKCU1CAC5THomGTa4AQvfPgl+v2Idb46detLAkwM6WFx2RHrJ8dD\nHlsqGj/AJQKBgD1Yqpgj3FTjbdDclB4ZsaGPsUZ2ML9tbcedcJfnCmwVGAEEzrxP\nENC2TZOx8VQCU/IXLfAlA5eZJ1uXKLDqG0Vlmls5eFRdq45j5v2+j3GAPOwresGS\nTOtWTED5SAQZRR1B89EAmv5kt+xGhIIbLmizp4Wt5DTa9E5xd07RI/SBAoGAMOj+\nt6pgv3ZXdQWuN1RZRcIlawUY7gurLrzaDtfwYZ9d6PHlf5EHqayUy63wKTOlxgqD\nEdicKIFH/sbzRsQKFtPEwOZpKZTNznIOq04rDQ5yR7Q7c7EqBXX2Imfun56sltxI\nrhW/u6u7tQq8Aja7GhENE18FPCKWgzUGqfYYkx0CgYEAoEuykQC1W7T9lSc3q0rG\ncnC2v8BEGQxpcOXA8gGknDHjm0oNaayRhFjB3O21jXzkxSZx72yodCdkSLuVgNNd\nmp8aKFUhUcMdsTf9FSv1F1+kKY8Yka3msvCYG3kKVdyphoZ+i0sBYMTIbZYuAtcn\nYpzU+5oAHpjBfFByKwDQ0Y8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "stocksimservice@premium-country-449714-s4.iam.gserviceaccount.com",
+  "client_id": "102097127427669685824",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/stocksimservice%40premium-country-449714-s4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
